@@ -1,8 +1,11 @@
 # Complete Text-to-Sign Language Video Pipeline
 
-This project combines two pipelines to convert text input into sign language videos:
+This project is designed to convert text input into realistic sign language videos through three main pipelines:
 1. Text-to-SignID Pipeline: Converts English text to ASL (American Sign Language) SignIDs
-2. Generation Pipeline: Converts SignIDs into rendered sign language videos
+2. Generation Pipeline: Converts SignIDs into pose-based sign language videos
+3. Video Rendering Pipeline: [IN DEVELOPMENT] Will convert pose-based videos into realistic rendered videos
+
+**Note**: Currently, only parts 1 and 2 are implemented. Part 3 (Video Rendering) is under development.
 
 ## Prerequisites
 
@@ -51,6 +54,24 @@ pip install -r requirements.txt
      - yolox_l.onnx ([baidu](https://pan.baidu.com/s/1fpfIVpv5ypo4c1bUlzkMYQ?pwd=mjdn) or [google](https://drive.google.com/file/d/1w9pXC8tT0p9ndMN-CArp1__b2GbzewWI/view?usp=sharing))
    - Place them in: `ailab_Generation_pipeline-dev/ailab_DWPose_not_git/ControlNet-v1-1-nightly/annotator/ckpts/`
 
+## Pipeline Components
+
+### 1. Text-to-SignID Pipeline
+- Located in `AST-Avatar-SignMail-Text2Video-main/`
+- Converts English text into sequence of SignIDs
+- Uses OpenAI API for natural language processing
+- Outputs CSV file with SignID sequence
+
+### 2. Generation Pipeline
+- Located in `ailab_Generation_pipeline-dev/`
+- Takes SignIDs and generates pose-based sign language videos
+- Uses DWPose for pose estimation
+- Includes motion interpolation for smooth transitions
+- Outputs video with pose visualization
+
+### 3. Video Rendering Pipeline [PENDING]
+
+
 ## Usage
 
 You can use the pipeline in two ways:
@@ -88,9 +109,11 @@ process_text_to_video(
 
 ## Output
 
-The pipeline will generate:
-1. A video file (default: `output_video.mp4`) containing the rendered sign language animation
+The pipeline currently generates:
+1. A video file (default: `output_video.mp4`) containing the pose-based sign language animation
 2. Temporary files that are cleaned up after processing
+
+Note: Once the Video Rendering Pipeline is implemented, the output will be a fully rendered realistic video.
 
 ## Troubleshooting
 
