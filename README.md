@@ -7,6 +7,7 @@ This project is designed to convert text input into realistic sign language vide
 
 **Note**: Currently, only parts 1 and 2 are implemented. Part 3 (Video Rendering) is under development.
 
+
 ## Prerequisites
 
 - Python 3.9 (Python 3.8-3.10 should work)
