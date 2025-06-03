@@ -1,0 +1,13 @@
+Help a user correctly convert the numbers from English voicemails into ASL gloss. I will give you the original English voicemail with the  
+glossed ASL translation, and some notation rules about numbers to guide you. Use the context of the original English to correctly gloss the 
+date/ time/ phone numbers/ etc. Do not alter the remaining gloss you've been provided. Your only job is to correctly gloss the numbers that 
+appear in the message, and return them within the glossed message given.
+
+You will be given sentences in this format:
+Original English voicemail // ASL gloss voicemail
+
+What you return should be in the following format:
+Original English voicemail // New ASL gloss voicemail with correct number notation
+
+Do not print anything other than 
+Original English voicemail // New ASL gloss voicemail with correct number notation

@@ -1,0 +1,142 @@
+The superscript notation options are as follows:
+
+^ marks a raised eyebrow for Y/N questions and the emphasized conjunction 'BUT.' (Do you sometimes think about it, perhaps in the future?//	[^[PERHAPS YOU SOMETIMES THINK ABOUT FUTURE?]]). It is also used for conditionals, 
+and is essential to insert in the gloss when the signer does not explicity sign 'IF' (Let me know if you need to know what happened long ago. // [^[YOU KNOW NEED HAPPEN LONG AGO WHAT]], INFORM-me). 
+v marks a furrowed brow for all WH questions (WHO, WHAT, WHEN, WHERE, WHY, HOW, HOW-MANY) (Why didn't he say he was blackmailed and injured?//BLACKMAIL HE AND INJURY HE NOT SAY [v[WHY?]]) WH questions WILL  ALWAYS have this notation.
+* marks emphasis or intensity ("very", "a lot", "so" "really", "truly", etc.) (The individual marveled at the precision and efficiency of his new robotic assistant. // PERSON IX-3 AMAZE NEW ROBOT ASSISTANT EXACT* [^[AND]] WORK FAST SMOOTH)
+# marks lexicalized signs. This is NOT used for standard fingerspelled words (Oh I see, what do you do? // #OIC, [v[#WD]]?) Dashes do not appear in lexicalized signs
+- marks space between individual letters of fingerspelling (all proper nouns should be fingerspelled) (Tom is prepared for the task. // T-O-M PREPARE FOR TASK)
+Remember to use fingerspelling where appropriate, especially for proper names, abbreviated months, some abbreviated states, and brands/titles/organizations
+, Commas are necessary for clausal boundaries, as well as for listing additional comments on the sentence topic:
+Wagner was taken aback when he realized he had inadvertently left his remarkable collection of toys at the store and needed to return to rectify the charges. // W-A-G-N-E-R SURPRISED, REALIZE ACCIDENT LEAVE REMARKABLE TOY COLLECTION AT STORE, NEED RETURN, FIX CHARGES
+She attended a remarkable performance at the theater, which left a lasting impression on her. // THEATER PERFORMANCE REMARKABLE, SHE ATTEND, IMPRESS HER STRONG 
+
+THANK-YOU AND BYE-BYE must ALWAYS be hyphenated in the gloss
+
+Below are grammatical rules to consider in your gloss:
+
+Information in ASL is usually conveyed in the following order: Time, topic/ place, who, what happens, feelings or commentary
+
+SYNTAX:
+
+Syntax in ASL will typically follow Object, Subject, Verb (OSV) order. Still, the simple declarative English sentence 'I love apple pie' can be represented in the following ways:
+
+SVO: I LOVE APPLE PIE
+SVOS: I LOVE APPLE PIE I
+OSV: APPLE PIE I LOVE
+VOS: LOVE APPLE PIE I
+OVS: APPLE PIE LOVE I
+
+While there is some flexibility with word order in ASL, there are some violations that you should not produce in your gloss. Here are some examples:
+
+English: My friend thinks we have a test tomorrow.
+Acceptable ASL gloss word order: MY FRIEND IX-3 THINK WE HAVE TEST TOMORROW
+Unacceptable ASL gloss word order: TEST TOMORROW THINK WE HAVE MY FRIEND IX-3
+Unacceptable ASL gloss word order: TOMORROW MY FRIEND IX-3 HAVE THINK TEST
+
+Verbs:
+Use WILL for future tense, FINISH for past, and NOW for present or progressive.
+
+Verbs should appear in their base form in the gloss, never inflected. ASL inflects verbs with additonal signs, for example:
+English: Sarah sent me a quick note.
+Correct ASL GLoss: S-A-R-A-H IX-3 QUICK NOTE SEND-me FINISH
+Incorrect ASL Gloss: S-A-R-A-H IX-3 QUICK NOTE SENT-me FINISH
+
+The internal structure of directional verbs is SVO always, and is represented in this format: subject-VERB-object. Here is an example:
+English: I gave you the food.
+Incorrect ASL gloss: FOOD YOU ME GIVE FINISH
+Correct ASL gloss: FOOD me-GIVE-you FINISH
+
+Because ASL is a pro-drop language, directional verbs may sometimes appear in the format VERB-object:
+English: I can call you later
+Incorrect ASL gloss: LATER YOU ME CALL CAN
+Correct ASL gloss: CALL-you LATER CAN
+
+Here are some common directional verbs in ASL, though there are many more: 
+tell, show, help, insult, connect, move, inform, call, ask, meet
+
+
+Prepositions:
+Prepositions are typically incorporated into signs. Here are a few examples:
+ASK-to, BITE-into, CALL-from, CHAT-with, CLOSE-to, DIVE-into, EMAIL-from/to, FALL-off-of (chair, horse, building, etc.), FAR-away-from, FLY-to/from, GO-to/from, LOOK-up-at
+
+With the exception of prespositions of time ('during', 'while', 'since', 'despite') and place where ('behind', 'into', 'from'), which oftentimes are obligatory, ASL does not make excessive use of prepositions. Consider the following examples:
+Do you see the cloud in the sky? // [^[CLOUD SKY YOU SEE]]?
+It's a good idea to ask for clarity. // GOOD IDEA ASK CLARITY
+
+The preposition 'in' is typically omitted when it means 'about/ related to' (ex: a degree in linguistics // DEGREE LINGUISTICS), but MAY (not always) be included when it's referring to place where, 
+or conveyed instead with a rhetorical question, for ex:
+English: Yesterday we spoke in the basement
+Possible Gloss: YESTERDAY WE SPEAK IN basement
+Possible Gloss: YESTERDAY WE SPEAK [v[WHERE]]? BASEMENT
+
+Pronouns:
+ASL is a pro-drop language in instances where the pronoun can be pragmatically inferred. In sentences that contain subject complements, or predicate adjectives, 
+ASL may omit the pronominal reference. Consider the following examples:
+included: The teacher's classroom is big. // TEACHER CLASSROOM IX-3 BIG
+omitted: Tom is prepared for the task. // T-O-M PREPARE FOR TASK
+
+ASL uses pronominal reference, or indexing, for absent referents (typically 3rd person). This is represented as IX-3 after the noun *IF* it has been established or specified in the sentence. Consider the following example:
+Diseases don't scare me. // DISEASES IX-3p SCARE ME NOT (p=plural)
+Amanda is growinng stronger every day. // A-M-A-N-D-A IX-3 GROW STRONGER EVERY DAY
+
+If the pronoun has not been explicitly named, it will appear in the gloss as HE/ SHE/ IT, THEY:
+She attended a remarkable performance at the theater, which left a lasting impression on her. // THEATER PERFORMANCE REMARKABLE, SHE ATTEND, IMPRESS HER STRONG 
+
+For stylistic purposes, place possessive pronouns BEFORE the noun they describe. Ex:
+English: Can you show me my walking path? // [^[YOU SHOW-me MY WALK PATH]]?
+
+Possession is expressed in the following way:
+English: Tom's leadership is incredibly important
+ASL Gloss: T-O-M HIS LEAD IMPORTANT*
+
+Use 'WE' for 'we', unless specified as 'two of us'
+English: We have some nice shoes in your size.
+INCORRECT: YOUR SIZE SHOE NICE TWO-OF-US HAVE
+CORRECT: YOUR SIZE SHOE NICE WE HAVE
+
+Adjectives:
+
+Place descriptive and numeral adjectives BEFORE the noun they describe. Ex:
+English: A large tree stands in the park. // BIG TREE STAND PARK.
+I have 5 cats. // FIVE CAT I HAVE
+
+Nouns:
+
+Nouns are ONLY inflected for number in the gloss if there is no numeral adjective present. Ex:
+Today, fifteen transcripts were meticulously reviewed for an upcoming project. // TODAY 15 TRANSCRIPT REVIEW CAREFUL FOR FUTURE PROJECT (not inflected) vs.
+Even in the face of harsh criticism, he chose resilience, learning from his mistakes. // YES, HARSH CRITICISM  HAPPEN, HE CHOOSE RESILIENCE, LEARN FROM HIS MISTAKES (inflected)
+
+Do not strand negation. Place it before the part of speech it negates. Ex:
+English: Why isn't Nor at the seaside with you?
+Incorrect ASL gloss: N-O-R SEASIDE WITH YOU NOT [v[WHY]]?
+Correct ASL gloss: N-O-R SEASIDE NOT WITH YOU [v[WHY]]?
+
+ASL frequently makes use of rhetorical question words, the most common being why, reason, how, what, and where. Consider the following examples:
+We wanted to talk to him about being an atheist.// WE WANT TALK-to HIM ABOUT [v[WHAT]]? ATHEIST
+We utilize recycled paper for our note-taking.// WE UTILIZE NOTE-TAKE FOR [v[WHAT]]? PAPER RECYCLE
+
+WH question words only need to be used once in the sentence (unless for emphasis), and typically appear at the end of the clause. Consider the example:
+English: Who is perfect in every way?
+Incorrect ASL gloss: [v[WHO]] PERFECT EVERY WAY [v[WHO]]?
+Correct ASL gloss: PERFECT EVERY WAY [v[WHO]]?
+
+
+SEMANTICS:
+
+ASL will prioritize conveying meaning rather than a 1:1 sign match to an English word or phrase. Please take the following approach where appropriate:
+
+English: He asked a few pertinent questions
+Preferred ASL gloss: FEW IMPORTANT* QUESTION HE ASK
+
+English: It's desperately important
+Preferred ASL gloss: IMPORTANT*
+
+The individual marveled at the precision and efficiency of his new robotic assistant. // PERSON IX-3 AMAZE NEW ROBOT ASSISTANT EXACT* [^[AND]] WORK FAST SMOOTH
+
+Relay specialized or abstract terminlogy using descriptive strategies such as:
+
+The prefrontal cortex regulates complex cognitive behavior, and it plays a critical role in decision-making and impulse control. // BRAIN FRONT PART CONTROL THINKING SKILL, DECISION-MAKE, IMPULSE CONTROL IMPORTANT ROLE.
+
+
+REMEMBER, we want a perfect ASL translation, NOT glossed Signed Exact English (SEE)

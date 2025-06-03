@@ -1,0 +1,59 @@
+Here is how numbers should be represented in the gloss:
+
+For general counting/ weight / money:
+1, 2, 3, ... 99 // ONE, TWO, THREE, .....NINETY-NINE
+100, 200, ... 900 // ONE-HUNDRED, TWO-HUNDRED, ... NINE-HUNDRED (these are incorporated signs.)
+101...109 // ONE ZERO ONE... ONE ZERO NINE (Glossing the ZERO is obligatory in the tens position)
+111 // ONE-HUNDRED ELEVEN
+1,000; 2,000... 9,000 // ONE-THOUSAND; TWO-THOUSAND...NINE-THOUSAND
+MILLION, BILLION, TRILLION, etc. are NOT incorporated, and will appear in the gloss without dashes:
+1,000,000 // ONE MILLION
+
+For money:
+Follow the same rules for general counting for both dollars and cents. Do not express cents as decimals:
+We paid $512.60 for the computer // FIVE-HUNDRED TWELVE DOLLAR SIXTY CENT WE BUY COMPUTER FINISH
+
+Ex: the number 6,943,725,108 should be glossed as:
+
+SIX BILLION, NINE-HUNDRED FORTY-THREE MILLION, SEVEN-HUNDRED TWENTY-FIVE THOUSAND, ONE ZERO EIGHT
+
+Typically, dates will appear without a comma, and numbers for general quantity/ measurement/ money will appear with commas in the English sentence.
+If this is not the case, use the context of the sentence to determine the correct way to gloss the number:
+He loaned me 3500 to buy the car // THREE-THOUSAND FIVE-HUNDRED DOLLAR HE LOAN-me BUY CAR
+We collected 2029 kilograms of trash // TWO-THOUSAND TWENTY-NINE K-G TRASH WE COLLECT FINISH
+
+For telling time:
+The party is at 8:15pm. // PARTY WHEN? EIGHT FIFTEEN NIGHT
+Glossing ZERO is still obligatory in the tens position for minutes. For hours, the 0 is omitted from the gloss (ex: 04:39// FOUR THIRTY-NINE)
+If the time is right at the hour, it should be glossed: THREE-OCLOCK MORNING, FOUR-OCLOCK AFTERNOON, etc.
+
+If there is no time of day specified in the English, do not guess, just gloss the time:
+Can you go tomorrow at 10? // TOMORROW TIME-TEN YOU GO [^[CAN?]]
+
+Phrases related to telling time should be represented literally in the gloss, including (but not limited to):
+half-past; quarter to/of, (minutes)-after, (minutes)-to, etc. 
+These should be glossed as: [HOUR]-THIRTY, [HOUR]-FORTY-FIVE, etc.
+
+Rules about representing 0 don't apply to dates. Dates should be represented in the following way:
+August 31, 1001 // A-U-G THIRTY-ONE, ONE-THOUSAND-ONE 
+March 3, 2005// M-A-R-C-H THREE, TWO-THOUSAND-FIVE
+October 12, 2020 // O-C-T TWELVE, TWENTY-TWENTY
+
+Phone Numbers:
+Phone numbers should be glossed in their numerical form with dashes, as if they were fingerspelled:
+The number is 555-555-5555 // NUMBER 5-5-5-5-5-5-5-5-5-5
+My extension is 6 3 5 0 // MY E-X-T 6-3-5-0
+
+Numbers 1-9 can be incorporated into many base signs when referencing units of time. For example, the number 3:
+
+THREE-SECOND; THREE-MINUTE; THREE-HOUR; THREE-DAY; THREE-WEEK; THREE-MONTH; THREE-YEAR-AGO; THREE-YEAR-LATER
+
+After 9, the number should be glossed separately from the unit of time:
+FIFTEEN SECOND; FIFTEEN MINUTE, FIFTEEN HOUR, ...
+
+Gloss the full version of time zone abbreviations:
+EST// EAST STANDARD TIME
+
+Numbers or codes with dashes should be represented in the following way:
+Location 31-061 // LOCATION THIRTY-ONE DASH ZERO SIXTY-ONE
+ 

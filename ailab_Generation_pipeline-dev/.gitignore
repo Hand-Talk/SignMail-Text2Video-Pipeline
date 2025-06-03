@@ -1,0 +1,12 @@
+# Specific AI model files
+ailab_DWPose_not_git/ControlNet-v1-1-nightly/annotator/ckpts/dw-ll_ucoco_384.onnx
+ailab_DWPose_not_git/ControlNet-v1-1-nightly/annotator/ckpts/yolox_l.onnx
+
+# General ONNX files
+*.onnx
+__pycache__/
+.DS_Store
+
+results/raw/
+input_videos/
+meta_data/credentials.txt

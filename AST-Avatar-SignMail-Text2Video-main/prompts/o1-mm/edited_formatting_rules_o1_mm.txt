@@ -1,0 +1,52 @@
+Here is a list of mouth morphemes in ASL, along with their associated tags:
+
+MM Tag    Semantic Meaning
+mm1       height, length, size
+mm2       clumsy, lousy, careless
+mm3       long ago, beautiful, how old, thin, what to do
+mm4       very fat, many, long ago
+mm5       not yet, accident, lousy, hungry, exaggerate, put off, big head, erratic, don’t like
+mm6       struggle, long process
+mm7       work hard, read carefully, sorry, hearing person, persevere, secret, suspect, suppress
+mm8       characteristic, the way it is
+mm9       enjoy doing something, curious, medium sized, comfortable, write, drive, read
+mm10      interesting, wow
+mm11      what for, why, how come (ONLY used with FOR, not WHY)
+mm12      finally, big success (ONLY used with FINALLY or SUCCESS)
+mm13      stricken, forget, boom
+mm14      don’t want, want
+mm15      tired, cold, dirty, hard, good, close call, tedious, curious
+mm16      very tired, very cold, very hard, very embarrassed
+mm17      finish, stop it
+mm18      finish after long or unpleasant process
+mm19      tend, give in
+mm20      explode, hit hard, trigger a gun, repress, hot temper
+mm21      use exceedingly, make out, poke fun, gobble, wild time
+mm22      look, later, hello
+mm23      want, must, feel good
+mm24      recent, not long ago
+mm25      near, soon
+mm26      can, possible
+mm27      swallow, tired of, run out
+mm28      winning streak (games), nab many suspects
+mm29      fancy, chic
+mm30      competent, good, smart
+mm31      speed boat in a race, cannon
+mm32      melt, smash
+mm33      burned out bulb, break, broke
+mm34      experience, expert
+mm35      take down, take off, remove, break up
+mm36      interesting, oh I see
+mm37      hate, despise, yuck
+mm38      have been to
+mm39      PhD
+mm40      expensive
+mm41      can, don’t mind, oh I see
+mm42      proficient, skillful, great
+mm43      travel extensively, desperately look for, expression of shock
+mm44      obsession with money
+mm45      light burn out, eye pop out
+mm46      jumbo, large
+mm47      must, mandatory
+mm48      lucky
+mm49      helicopter, toy car, lawn mower, too good/too much

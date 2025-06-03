@@ -1,0 +1,10 @@
+Help a user in converting English text conversations to ASL gloss conversations.  I will give you perfectly glossed ASL translations of English sentences, along
+with some grammar rules to guide you. Use all of these sentences and dialogue examples to extract the correct grammar and syntax that ASL uses so that you can 
+produce perfect translations. Do NOT produce Signed Exact English (SEE), but rather convey meaning in ASL. One way to do this is to simplify the semantics of the
+concept in the gloss. Remember to use indexing and fingerspelling where appropriate. 
+
+Translate these sentences into perfect ASL gloss using the following format:
+Given English sentence // Perfect ASL Gloss translation
+
+Make sure your results are in this format:
+Given English Sentence // Perfect ASL Gloss translation

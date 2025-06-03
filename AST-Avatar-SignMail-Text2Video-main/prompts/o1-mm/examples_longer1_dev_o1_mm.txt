@@ -1,0 +1,51 @@
+Here are some example sentences with mouth morphemes inserted correctly. 
+
+1.	A massive tree stood in the middle of the park, its branches stretching high into the sky. // TREE [mm1[HUGE]] STAND CENTER PARK, BRANCHES GROW TALL SKY.
+2.	I was carrying my drink carelessly and spilled it all over the floor - so embarrassing!//  ME CARRY [mm2[DRINK]] SPILL ALL-OVER FLOOR, EMBARRASS ME
+3.	That house is so beautiful - it looks like a castle! THAT HOUSE [mm3[WOW]] BEAUTIFUL, LOOK-LIKE CASTLE
+4.	My grandfather told stories from many years ago about his childhood. //  GRANDPA STORY [mm4[LONG-AGO]] CHILDHOOD.
+5.	My commute to work is so drawn out, with a lot of arrogant drivers! I really have to pay attention. // MY COMMUTE WORK [mm5[EXAGGERATE]], WITH MANY ARROGANT DRIVER! I PAY-ATTENTION MUST I
+6.	I'm trying to save money, but it™s a long struggle because expenses always come up. // ME TRY [mm6[SAVE]] MONEY, EXPENSES ALWAYS COME-UP
+7.	She carefully read through every page of the contract.//  CONTRACT SHE [mm7[READ]] CAREFULLY
+8.	Thats just how she is—always cheerful and energetic. //  SHE [mm8[CHARACTERISTIC]] ALWAYS HAPPY ENERGY. 
+9.	She enjoys driving with the windows down. // SHE DRIVE WINDOW OPEN [mm9[ENJOY*]]. 
+10.	 His story was so interesting - wow, I never thought that could happen. // HIS STORY [mm10[WOW]], I NEVER THINK HAPPEN!
+11.	What for is class canceled? Is the teacher sick? // CLASS CANCEL [mm11[FOR-FOR]], TEACHER SICK?
+12.	After years of hard work, he finally opened his own restaurant. // WORK HARD YEARS*, RESTAURANT [mm12[FINALLY]] OPEN.
+13.	He suddenly forgot his speech on stage. //   HE STAGE STAND [mm13[FORGET*]].
+14.	I don't want my new kombucha to be ruined, so I have to check the bottle every day. // I [mm14[DON'T-WANT]] MY NEW K-O-M-B-U-C-H-A RUIN, I MUST CHECK BOTTLE EVERY-DAY
+15.	 The weather was so cold we could barely feel our fingers. //  WEATHER [mm15[COLD]] HANDS FEEL-NONE.
+16.	After the snowstorm, it was freezing outside. //  SNOWSTORM FINISH, WEATHER [mm16[COLD*]].
+17.	I finished my homework - now I can relax. // ME HOMEWORK [mm17[FINISHED]], NOW RELAX.
+18.	After hours of traffic, we finally arrived home. // TRAFFIC LONG TIME, HOME [mm18[FINISH]] ARRIVE.
+19.	He tends to get distracted while studying. // HE STUDY, DISTRACT [mm19[TEND]].
+20.	His anger exploded when he heard the bad news. // HE HEAR BAD-NEWS, ANGER [mm20[EXPLODE]].
+21.	The kids had a wild time at the amusement park. //  KIDS AMUSEMENT PARK HAVE [mm21[WILD-TIME]] PLAY.
+22.	She kept looking for her missing keys. KEYS LOST, SHE [mm22[LOOK*]].
+23.	I must finish my project today. // PROJECT TODAY FINISH [mm23[MUST]].
+24.	He just arrived home a few minutes ago. // HOME HE ARRIVE [mm24[RECENT]].
+25.	The train will be here soon. //  TRAIN ARRIVE [mm25[SOON]].
+26. Is it possible to extend our room for one more night? // REALLY [mm26[POSSIBLE]] TO EXTEND OUR ROOM FOR ONE-MORE NIGHT?
+27.	I’m tired of hearing that same song over and over. // SONG REPEAT AGAIN-AND-AGAIN, I [mm27[TIRED-OF]].
+28.	The basketball team has won five games in a row! //  BASKETBALL TEAM [mm28[WIN]] STREAK FIVE TIME
+29.	Her dress is so fancy - it looks expensive! // HER DRESS WOW, LOOK [mm29[EXPENSIVE]].
+30. He is very good at fixing computers. //  COMPUTER FIX HE [mm30[SKILLFUL]]. 
+31.	The speed boats in the race were so fast! // BOAT [mm31[RACE]], WOW FAST! 
+32.	The ice melted quickly in the sun. // ICE [mm32[MELT*]].
+33.	The light bulb burned out - I need a new one. // LIGHT BULB [mm33[BURNED OUT]], NEED NEW ONE.
+34.	After years of working in construction, he became an expert at building houses. // HE WORK CONSTRUCTION MANY-YEAR, NOW [mm34[EXPERT*]] BUILD HOUSE.
+35.	I took down the old poster- the wall is clean. // ME [mm35[REMOVE]] OLD POSTER, WALL CLEAN
+36.	When I saw the new real estate deal, I thought, 'That's interesting!' //  I SEE NEW PROPERTY D-E-A-L, I THINK [mm36["INTERESTING"]]
+37.	I cringe at the thought of dealing with such high property taxes. // T-A-X-E-S HIGH, I CRINGE, [mm37[HATE]]
+38.	I’ve been to many countries, but I still haven’t visited Italy. //  I [mm38[VISIT]] MANY COUNTRIES, BUT ITALY STILL NOT [mm38[VISIT]].
+39.	He has a PhD in physics and works as a professor. // HE [mm39[#PHD]] PHYSICS, WORK PROFESSOR. 
+40.	That luxury car is so expensive, but its beyond my budget. //  LUXURY CAR [mm40[EXPENSIVE]], BUT MY BUDGET CAN'T.
+41.	I can handle the challenge of managing multiple properties. //  I [mm41[CAN]] HANDLE MULTIPLE PROPERTIES, MANAGE. 
+42.	She is very proficient at cooking and always makes the best meals. //  SHE [mm42[PRO]] COOKING, ALWAYS BEST M-E-A-L MAKE
+43.	I constantly search for new business opportunities every time I see a great deal. // I [mm43[SEARCH]] FOR NEW BUSINESS OPPORTUNITIES, SEE GOOD D-E-A-L . 
+44.	Some people have an obsession with money and focus only on making more. // SOME PEOPLE [mm44[OBSESS]], ONLY FOCUS MONEY, MAKE MORE*
+45.	After a long day at work, I felt a little burned out and needed to relax. // AFTER LONG DAY WORK, I [mm45[BURNED OUT]], NEED RELAX
+46.	The property I’m considering has a huge garden, perfect for gatherings. // PROPERTY CONSIDER [mm46[HUGE]] GARDEN, PERFECT FOR GATHERING
+47.	Its mandatory to get pre-approved for a loan before bidding on a house. //  [mm47[MANDATORY]] LOAN P-R-E APPROVE, BEFORE HOUSE BID.
+48.	She was lucky to win the lottery. //  L-O-T-T-E-R-Y LOTTERY WIN [mm48[LUCKY]].
+49.	The helicopter hovered above the city. // [mm49[HELICOPTER FLY]] OVER CITY C-I-T-Y.
