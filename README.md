@@ -70,8 +70,19 @@ pip install -r requirements.txt
 - Includes motion interpolation for smooth transitions
 - Outputs video with pose visualization
 
-### 3. Video Rendering Pipeline [PENDING]
-
+### 3. Video Rendering Pipeline [IN DEVELOPMENT]
+- Located in `realisDance_generation-my-feature-branch/`
+- Converts pose-based animations into realistic rendered videos
+- Features:
+  - Character model integration with rigged 3D avatar
+  - Realistic motion transfer from pose data
+  - High-quality video rendering with proper lighting and textures
+  - Facial expression synthesis for natural communication
+- Current development focus:
+  - Motion retargeting from pose keypoints to 3D character rig
+  - Smooth blending between sign transitions
+  - Real-time rendering optimization
+  - Integration with existing pipeline components
 
 ## Usage
 

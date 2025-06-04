@@ -1,0 +1,70 @@
+image_finetune: True
+
+output_dir: "outputs_text"
+pretrained_model_path: "/opt/dlami/nvme/pretrained_models/RV/rv-5-1"
+pretrained_clip_path: "/opt/dlami/nvme/pretrained_models/DINO/dinov2"
+
+pose_guider_kwargs:
+  pose_guider_type:     "side_guider"
+  args:
+    out_channels:       [ 320, 320, 640, 1280, 1280 ]
+
+clip_projector_kwargs:
+  projector_type:        "ff"
+  in_features:           1024
+  out_features:          768
+
+zero_snr:                True
+v_pred:                  True
+train_cfg:               False
+snr_gamma:               5.0
+fix_ref_t:               True
+
+validation_kwargs:
+  guidance_scale:        2
+
+train_data:
+  - dataset:
+      dataset_class: VideoDataset
+      args:
+        root_dir: "/opt/dlami/nvme/data/"
+        keypoints_type: "MP" # "DW" or "MP"
+        split: "train"
+        sample_size: [ 768, 576 ]
+        clip_size: [ 320, 240 ]
+        image_finetune: True
+        ref_mode: "random"
+
+validation_data:
+  dataset_class: VideoDataset
+  args:
+    root_dir: "/opt/dlami/nvme/data/"
+    split: "train"
+    keypoints_type: "MP" # "DW" or "MP"
+    sample_size: [ 768, 576 ]
+    clip_size: [ 320, 240 ]
+    image_finetune: True
+    ref_mode: "random"
+
+trainable_modules:
+  - "."
+
+unet_checkpoint_path: ""
+
+lr_scheduler:     "constant_with_warmup"
+learning_rate:    1e-5
+lr_warmup_steps:  5000
+train_batch_size: 9
+validation_batch_size: 9
+
+max_train_epoch:      -1
+max_train_steps:      200000
+checkpointing_epochs: -1
+checkpointing_steps:  10000
+checkpointing_steps_tuple:  [ 2, 5000 ]
+
+
+global_seed: 42
+mixed_precision: "fp16"
+
+is_debug: False

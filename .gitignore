@@ -2,25 +2,65 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*__pycache__
 
 # Jupyter Notebook
 .ipynb_checkpoints
 **/understand_HandTalk_sign_video_library.ipynb
 
-# Environment variables
+# Environment and Virtual Environments
 .env
 .env.local
 .env.*
+anaconda.sh
+*anaconda*.sh
 
-# AWS credentials
+# Credentials and Sensitive Data
 .aws/
 aws_credentials.json
 *_credentials.json
+meta_data/credentials.txt
 
-# IDE
+# IDE and Editor Files
 .vscode/
 .idea/
+.idea
+*_bak*
 
 # Operating System
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Media and Binary Files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+*.webp
+*.mp4
+*.onnx
+
+# Project-specific directories
+inputs/
+outputs/
+log/
+pretrained_models/
+data/
+out/
+out*/
+input/
+prepare_pose/
+results/raw/
+input_videos/
+
+# AI Model Files
+ailab_DWPose_not_git/
+*ailab_DWPose*
+ControlNet-v1-1-nightly/
+ailab_DWPose_not_git/ControlNet-v1-1-nightly/annotator/ckpts/dw-ll_ucoco_384.onnx
+ailab_DWPose_not_git/ControlNet-v1-1-nightly/annotator/ckpts/yolox_l.onnx 
