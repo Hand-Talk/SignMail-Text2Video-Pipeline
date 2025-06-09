@@ -8,12 +8,38 @@ CURRENT_DIR = Path(__file__).parent.absolute()
 TEXT2SIGN_DIR = CURRENT_DIR / "AST-Avatar-SignMail-Text2Video-main"
 GENERATION_DIR = CURRENT_DIR / "ailab_Generation_pipeline-dev"
 REALISDANCE_DIR = CURRENT_DIR / "realisDance_generation-my-feature-branch"
+DWPOSE_DIR = GENERATION_DIR / "ailab_DWPose_not_git" / "ControlNet-v1-1-nightly"
 
-sys.path.extend([str(TEXT2SIGN_DIR), str(GENERATION_DIR), str(REALISDANCE_DIR)])
+# Create __init__.py files if they don't exist
+def ensure_init_files():
+    paths = [
+        DWPOSE_DIR / "annotator" / "__init__.py",
+        DWPOSE_DIR / "annotator" / "dwpose" / "__init__.py"
+    ]
+    for path in paths:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        if not path.exists():
+            path.touch()
+
+# Ensure the paths exist and create __init__.py files
+if not DWPOSE_DIR.exists():
+    raise FileNotFoundError(f"DWPose directory not found at: {DWPOSE_DIR}")
+ensure_init_files()
+
+# Add paths to Python path (DWPose first, then other directories)
+sys.path.insert(0, str(DWPOSE_DIR))
+sys.path.extend([str(path) for path in [TEXT2SIGN_DIR, GENERATION_DIR, REALISDANCE_DIR]])
+
+# Print debug information
+print("Python path:", sys.path)
+print("Current directory:", os.getcwd())
+print("DWPose path:", DWPOSE_DIR)
+
+# Now import main
+import main as generation_pipeline
 
 # Import required modules from all projects
-from Text2SignID_run import process_text_to_signID
-import main as generation_pipeline
+from Text2SignID_run import text_to_signid as process_text_to_signID
 from generate_single import generate_video as realisdance_generate
 
 def setup_environment():
@@ -53,17 +79,18 @@ def process_text_to_video(
         reference_image_path (str): Path to reference image for realistic rendering
     """
     print("Step 1: Converting text to SignIDs...")
-    # Create a temporary file for the input text
-    with open("temp_input.txt", "w", encoding="utf-8") as f:
-        f.write(input_text)
+    # Process text to get SignIDs using the text_to_signid function
+    df_result = process_text_to_signID(input_text, "temp_output.csv", dictionary)
     
-    # Process text to get SignIDs
-    output_csv = "temp_output.csv"
-    sign_ids = process_text_to_signID("temp_input.txt", output_csv, dictionary)
+    # Extract sign IDs from the DataFrame
+    if not df_result.empty and 'id_sentence' in df_result.columns:
+        sign_ids = df_result['id_sentence'].iloc[0].split()  # Get first row's sign IDs
+    else:
+        raise ValueError("No sign IDs were generated from the input text")
     
     print("Step 2: Generating pose-based video from SignIDs...")
     # Prepare arguments for generation pipeline
-    args = {
+    generation_args = {
         "sign_ids": sign_ids,
         "num_interpolation": num_interpolation,
         "num_insert_interpolation": 0,  # Default value
@@ -72,7 +99,7 @@ def process_text_to_video(
     
     # Run generation pipeline
     pose_video_path = "temp_pose_video.mp4"
-    generation_pipeline.main(args)
+    generation_pipeline.main(generation_args)
     
     if render_realistic and all([
         pretrained_model_path,
@@ -102,7 +129,7 @@ def process_text_to_video(
             os.rename(pose_video_path, output_video_path)
     
     # Clean up temporary files
-    for temp_file in ["temp_input.txt", "temp_output.csv", "temp_pose_video.mp4", "temp_keypoints.npy"]:
+    for temp_file in ["temp_output.csv", "temp_pose_video.mp4", "temp_keypoints.npy"]:
         if os.path.exists(temp_file):
             os.remove(temp_file)
     
@@ -113,9 +140,7 @@ def main():
     setup_environment()
     
     # Example usage
-    input_text = """
-    Hello! This is a test message. How are you doing today?
-    """
+    input_text = "Hello! This is a test message. How are you doing today?"
     
     try:
         process_text_to_video(
@@ -124,14 +149,14 @@ def main():
             dictionary="rdp",
             num_interpolation=8,
             style_image_path=None,  # Optional: provide path to style image if needed
-            render_realistic=True,  # Enable realistic rendering
-            pretrained_model_path="path/to/stable-diffusion-model",  # Required for realistic rendering
-            pretrained_clip_path="path/to/clip-model",  # Required for realistic rendering
-            unet_checkpoint_path="path/to/realisdance-checkpoint",  # Required for realistic rendering
-            reference_image_path="path/to/reference-image"  # Required for realistic rendering
+            render_realistic=False  # Disable realistic rendering since we don't have the model paths
         )
     except Exception as e:
         print(f"Error occurred: {str(e)}")
 
 if __name__ == "__main__":
     main() 
+
+
+
+#python -c "from complete_pipeline import process_text_to_video; process_text_to_video(input_text='Hello! How are you?', output_video_path='./output_video.mp4', dictionary='rdp', num_interpolation=8)"
